@@ -55,10 +55,14 @@ A estrutura da sua aplicação deverá ficar parecida com a imagem abaixo:
 
 ### Criando a tabela no banco de dados Postgres
 Para o banco de dados Postgres estou usando o pgAdmin4. Acesse o banco de dados e crie um novo Database conforme imgem
-abaixo:
+abaixo: <br/>
+
 ![img_4.png](img/img_4.png)<br/>
+
 Após criar o Database, abre o Query Tool onde você poderá criar suas tabelas com as colunas conforme imagem abaixo:
+
 ![img.png](img/img_7.png)
+
 ### Conectando o Postgres na aplicação
 
 Para conectar o Postgres na aplicação, você terá que fornecer detalhes do banco de dados para o Spring Boot. 
