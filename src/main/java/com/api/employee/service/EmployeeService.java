@@ -1,7 +1,7 @@
-package com.example.employee.service;
+package com.api.employee.service;
 
-import com.example.employee.model.Employee;
-import com.example.employee.repository.EmployeeRepository;
+import com.api.employee.repository.EmployeeRepository;
+import com.api.employee.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -32,5 +32,4 @@ public class EmployeeService {
 
         return empRepository.save(emp);
     }
-
 }
