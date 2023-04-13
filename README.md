@@ -1,6 +1,6 @@
 # Employee Rest Api Spring Boot
 
-Neste tutorial, nós iremos desenvolver uma API REST no Sping Boot para executar operações CRUD em banco de dados "employee"
+Neste tutorial, nós iremos desenvolver uma API REST no Sping Boot para executar operações CRUD no banco de dados Postgres
 
 ### Pré-requisitos
 
@@ -49,18 +49,16 @@ O repository buscará os dados do banco de dados e preencherá o respectivo mode
 * **controller**: essa é a camada superior, chamada quando chega uma solicitação para determinada API REST. O
 controller processará a solicitação da API REST, chamará um ou mais serviços e retornará uma resposta HTTP ao cliente.
 
-![img_1.png](img/img_1.png)
+A estrutura da sua aplicação deverá ficar parecida com a imagem abaixo:
+
+![img.png](img/img.png)
 
 ### Criando a tabela no banco de dados Postgres
 Para o banco de dados Postgres estou usando o pgAdmin4. Acesse o banco de dados e crie um novo Database conforme imgem
 abaixo:
 ![img_4.png](img/img_4.png)
-Após criar o Database, crie a tabela
-![img_5.png](img/img_5.png)
-Por último, crie as colunas.
-
-![img_3.png](img/img_3.png)
-
+Após criar o Database, abre o Query Tool onde você poderá criar suas tabelas com as colunas conforme imagem abaixo:
+![img.png](img/img_7.png)
 ### Conectando o Postgres na aplicação
 
 Para conectar o Postgres na aplicação, você terá que fornecer detalhes do banco de dados para o Spring Boot. 
